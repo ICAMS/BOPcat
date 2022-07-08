@@ -1,0 +1,9 @@
+The use of some BOPcat utilities are illustrated in this example.
+The energy-volume and phonon bandstructure plots for Fe using
+Madsen-2011 are generated.
+
+The input controls are given in input.py and the main code is main.py
+
+To execute this simply type:
+
+python main.py input.py

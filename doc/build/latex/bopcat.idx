@@ -1,0 +1,100 @@
+\indexentry{catcontrols (module)|hyperpage}{11}
+\indexentry{CATControls (class in catcontrols)|hyperpage}{11}
+\indexentry{check\_input() (catcontrols.CATControls method)|hyperpage}{13}
+\indexentry{convert\_params() (catcontrols.CATControls method)|hyperpage}{13}
+\indexentry{gen\_functions() (catcontrols.CATControls method)|hyperpage}{13}
+\indexentry{initialize() (catcontrols.CATControls method)|hyperpage}{13}
+\indexentry{make\_lower() (catcontrols.CATControls method)|hyperpage}{13}
+\indexentry{catdata (module)|hyperpage}{13}
+\indexentry{CATData (class in catdata)|hyperpage}{13}
+\indexentry{get\_atoms() (catdata.CATData method)|hyperpage}{14}
+\indexentry{get\_atoms\_info() (catdata.CATData method)|hyperpage}{14}
+\indexentry{get\_equilibrium\_distance() (catdata.CATData method)|hyperpage}{14}
+\indexentry{get\_free\_atom\_energies() (catdata.CATData method)|hyperpage}{14}
+\indexentry{get\_ground\_state() (catdata.CATData method)|hyperpage}{14}
+\indexentry{get\_parent() (catdata.CATData method)|hyperpage}{15}
+\indexentry{get\_ref\_atoms() (catdata.CATData method)|hyperpage}{15}
+\indexentry{get\_ref\_data() (catdata.CATData method)|hyperpage}{15}
+\indexentry{get\_ref\_weights() (catdata.CATData method)|hyperpage}{15}
+\indexentry{get\_structuremap\_distance() (catdata.CATData method)|hyperpage}{15}
+\indexentry{get\_structures() (catdata.CATData method)|hyperpage}{16}
+\indexentry{catparam (module)|hyperpage}{16}
+\indexentry{CATParam (class in catparam)|hyperpage}{16}
+\indexentry{average\_modelsbx() (catparam.CATParam method)|hyperpage}{17}
+\indexentry{calc\_rcut() (catparam.CATParam method)|hyperpage}{17}
+\indexentry{gen\_jii() (catparam.CATParam method)|hyperpage}{17}
+\indexentry{gen\_model() (catparam.CATParam method)|hyperpage}{17}
+\indexentry{gen\_modelsbx() (catparam.CATParam method)|hyperpage}{18}
+\indexentry{gen\_onsite() (catparam.CATParam method)|hyperpage}{18}
+\indexentry{gen\_stoner() (catparam.CATParam method)|hyperpage}{18}
+\indexentry{gen\_valenceelectrons() (catparam.CATParam method)|hyperpage}{18}
+\indexentry{get\_SED() (catparam.CATParam method)|hyperpage}{18}
+\indexentry{get\_atoms\_properties() (catparam.CATParam method)|hyperpage}{19}
+\indexentry{get\_cutoffpara() (catparam.CATParam method)|hyperpage}{19}
+\indexentry{get\_fitfunc() (catparam.CATParam method)|hyperpage}{19}
+\indexentry{get\_initial\_bondparam() (catparam.CATParam method)|hyperpage}{19}
+\indexentry{get\_initial\_repparam() (catparam.CATParam method)|hyperpage}{19}
+\indexentry{get\_model() (catparam.CATParam method)|hyperpage}{19}
+\indexentry{read\_model() (catparam.CATParam method)|hyperpage}{19}
+\indexentry{read\_modelsbx() (catparam.CATParam method)|hyperpage}{19}
+\indexentry{beta (module)|hyperpage}{20}
+\indexentry{Beta (class in beta)|hyperpage}{20}
+\indexentry{read\_betas() (beta.Beta method)|hyperpage}{20}
+\indexentry{set\_fitfuncs() (beta.Beta method)|hyperpage}{20}
+\indexentry{zip\_betas() (beta.Beta method)|hyperpage}{20}
+\indexentry{catcalc (module)|hyperpage}{20}
+\indexentry{CATCalc (class in catcalc)|hyperpage}{20}
+\indexentry{calc\_def\_ene() (catcalc.CATCalc static method)|hyperpage}{21}
+\indexentry{calc\_ebs() (catcalc.CATCalc static method)|hyperpage}{21}
+\indexentry{calc\_efs() (catcalc.CATCalc static method)|hyperpage}{21}
+\indexentry{calculate() (catcalc.CATCalc static method)|hyperpage}{21}
+\indexentry{get\_atoms() (catcalc.CATCalc method)|hyperpage}{21}
+\indexentry{get\_calculator() (catcalc.CATCalc method)|hyperpage}{21}
+\indexentry{get\_calculators() (catcalc.CATCalc method)|hyperpage}{21}
+\indexentry{get\_property() (catcalc.CATCalc method)|hyperpage}{21}
+\indexentry{get\_structures() (catcalc.CATCalc method)|hyperpage}{22}
+\indexentry{pack\_atoms() (catcalc.CATCalc method)|hyperpage}{22}
+\indexentry{set\_atoms() (catcalc.CATCalc method)|hyperpage}{22}
+\indexentry{set\_model() (catcalc.CATCalc method)|hyperpage}{22}
+\indexentry{catkernel (module)|hyperpage}{22}
+\indexentry{CATKernel (class in catkernel)|hyperpage}{22}
+\indexentry{gen\_objective() (catkernel.CATKernel method)|hyperpage}{23}
+\indexentry{get\_optimized\_model() (catkernel.CATKernel method)|hyperpage}{23}
+\indexentry{optimize() (catkernel.CATKernel method)|hyperpage}{23}
+\indexentry{test() (catkernel.CATKernel method)|hyperpage}{23}
+\indexentry{write\_summary() (catkernel.CATKernel method)|hyperpage}{23}
+\indexentry{CATobjective (class in catkernel)|hyperpage}{23}
+\indexentry{default() (catkernel.CATobjective method)|hyperpage}{23}
+\indexentry{difference() (catkernel.CATobjective method)|hyperpage}{23}
+\indexentry{is\_bond\_required() (catkernel.CATobjective method)|hyperpage}{24}
+\indexentry{write() (catkernel.CATobjective method)|hyperpage}{24}
+\indexentry{CAToptimizer (class in catkernel)|hyperpage}{24}
+\indexentry{bopcal (module)|hyperpage}{24}
+\indexentry{BOPfox (class in bopcal)|hyperpage}{24}
+\indexentry{calculate() (bopcal.BOPfox method)|hyperpage}{25}
+\indexentry{get\_mode() (bopcal.BOPfox method)|hyperpage}{25}
+\indexentry{get\_moments() (bopcal.BOPfox method)|hyperpage}{25}
+\indexentry{get\_name() (bopcal.BOPfox method)|hyperpage}{25}
+\indexentry{inspect\_modelsbx() (bopcal.BOPfox method)|hyperpage}{25}
+\indexentry{write\_infox() (bopcal.BOPfox method)|hyperpage}{25}
+\indexentry{write\_infox\_new() (bopcal.BOPfox method)|hyperpage}{25}
+\indexentry{bopmodel (module)|hyperpage}{25}
+\indexentry{atomsbx (class in bopmodel)|hyperpage}{25}
+\indexentry{get\_atom() (bopmodel.atomsbx method)|hyperpage}{25}
+\indexentry{get\_mass() (bopmodel.atomsbx method)|hyperpage}{25}
+\indexentry{get\_version() (bopmodel.atomsbx method)|hyperpage}{25}
+\indexentry{rattle() (bopmodel.atomsbx method)|hyperpage}{25}
+\indexentry{write() (bopmodel.atomsbx method)|hyperpage}{25}
+\indexentry{bondsbx (class in bopmodel)|hyperpage}{26}
+\indexentry{get\_bond() (bopmodel.bondsbx method)|hyperpage}{26}
+\indexentry{get\_version() (bopmodel.bondsbx method)|hyperpage}{26}
+\indexentry{rattle() (bopmodel.bondsbx method)|hyperpage}{26}
+\indexentry{write() (bopmodel.bondsbx method)|hyperpage}{26}
+\indexentry{modelsbx (class in bopmodel)|hyperpage}{26}
+\indexentry{bond\_parameters\_to\_functions() (bopmodel.modelsbx method)|hyperpage}{26}
+\indexentry{rattle() (bopmodel.modelsbx method)|hyperpage}{26}
+\indexentry{beta (module)|hyperpage}{26}
+\indexentry{Beta (class in beta)|hyperpage}{26}
+\indexentry{read\_betas() (beta.Beta method)|hyperpage}{27}
+\indexentry{set\_fitfuncs() (beta.Beta method)|hyperpage}{27}
+\indexentry{zip\_betas() (beta.Beta method)|hyperpage}{27}

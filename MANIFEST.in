@@ -1,0 +1,5 @@
+recursive-include bopcat beta.py bopcal.py bopio.py bopmodel.py calc_bopfox.py catcalc.py catcontrols.py catdata.py catkernel.py catparam.py eigs.py functions.py get_strucscan_data.py output.py parallel.py plotting.py read_data.py read_outcar.py read_procar.py sedt.py strucscan_interface.py utils.py variables.py logo.gif
+recursive-include examples ASE/* strucscan/* construct_*/* optimize_*/* test_*/*
+recursive-include doc source/*
+recursive-include gui bopcatgui.py README
+include README* setup.py test_install.py 

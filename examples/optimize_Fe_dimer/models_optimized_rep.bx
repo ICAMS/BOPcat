@@ -1,0 +1,43 @@
+/models.bx written in ASE
+/------------------------------------------------------
+/------------------------------------------------------
+model = Madsen-2011
+/------------------------------------------------------
+/------------------------------------------------------
+moments                        = 9
+bandwidth                      = findeminemax
+version                        = bop
+screening                      = false
+terminator                     = constantabn
+nexpmoments                    = 200
+bopkernel                      = jackson
+
+/------------------------------------------------------
+Atom             = Fe
+/------------------------------------------------------
+Mass             = 55.845
+valenceelectrons =    6.80000 
+delta_onsitelevels =    0.00000 
+stonerintegral   =    0.76000    0.76000    0.76000 
+valenceorbitals  =          5
+jii              =    2.00000 
+onsitelevels     =     0.00000 
+
+/------------------------------------------------------
+bond           =   Fe Fe 
+/------------------------------------------------------
+valence        =   d d 
+scaling        =   1.00000 
+ddpi           = exponential_inwardcos  63.51200    2.01400    0.00000    0.00000 
+dddelta        = exponential_inwardcos -50.62500    2.59700    0.00000    0.00000 
+ddsigma        = exponential_inwardcos -34.81100    1.62500    0.00000    0.00000 
+dddeltaoverlap =    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000 
+ddpioverlap    =    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000 
+ddsigmaoverlap =    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000    0.00000 
+rep2           = emb_sqrt_gaussian  -3.70000    0.23000    2.00000    1.00000    1.00000 
+rep1           = pp_exponential 1941.65976    3.25000 
+d2cut          =      0.50000
+rcut           =      3.50000
+dcut           =      0.50000
+r2cut          =      5.50000
+

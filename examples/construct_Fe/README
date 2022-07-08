@@ -1,0 +1,7 @@
+In this example, a new model for Fe is constructed.
+The input controls are given in input.py and the optimization 
+procedure is defined in main.py
+
+To execute this simply type:
+
+python main.py input.py

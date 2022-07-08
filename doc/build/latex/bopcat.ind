@@ -1,0 +1,140 @@
+\begin{theindex}
+\def\bigletter#1{{\Large\sffamily#1}\nopagebreak\vspace{1mm}}
+
+  \bigletter A
+  \item atomsbx (class in bopmodel), \hyperpage{25}
+  \item average\_modelsbx() (catparam.CATParam method), \hyperpage{17}
+
+  \indexspace
+  \bigletter B
+  \item Beta (class in beta), \hyperpage{20}, \hyperpage{26}
+  \item beta (module), \hyperpage{20}, \hyperpage{26}
+  \item bond\_parameters\_to\_functions() (bopmodel.modelsbx method), \hyperpage{26}
+  \item bondsbx (class in bopmodel), \hyperpage{26}
+  \item bopcal (module), \hyperpage{24}
+  \item BOPfox (class in bopcal), \hyperpage{24}
+  \item bopmodel (module), \hyperpage{25}
+
+  \indexspace
+  \bigletter C
+  \item calc\_def\_ene() (catcalc.CATCalc static method), \hyperpage{21}
+  \item calc\_ebs() (catcalc.CATCalc static method), \hyperpage{21}
+  \item calc\_efs() (catcalc.CATCalc static method), \hyperpage{21}
+  \item calc\_rcut() (catparam.CATParam method), \hyperpage{17}
+  \item calculate() (bopcal.BOPfox method), \hyperpage{25}
+  \item calculate() (catcalc.CATCalc static method), \hyperpage{21}
+  \item CATCalc (class in catcalc), \hyperpage{20}
+  \item catcalc (module), \hyperpage{20}
+  \item CATControls (class in catcontrols), \hyperpage{11}
+  \item catcontrols (module), \hyperpage{11}
+  \item CATData (class in catdata), \hyperpage{13}
+  \item catdata (module), \hyperpage{13}
+  \item CATKernel (class in catkernel), \hyperpage{22}
+  \item catkernel (module), \hyperpage{22}
+  \item CATobjective (class in catkernel), \hyperpage{23}
+  \item CAToptimizer (class in catkernel), \hyperpage{24}
+  \item CATParam (class in catparam), \hyperpage{16}
+  \item catparam (module), \hyperpage{16}
+  \item check\_input() (catcontrols.CATControls method), \hyperpage{13}
+  \item convert\_params() (catcontrols.CATControls method), \hyperpage{13}
+
+  \indexspace
+  \bigletter D
+  \item default() (catkernel.CATobjective method), \hyperpage{23}
+  \item difference() (catkernel.CATobjective method), \hyperpage{23}
+
+  \indexspace
+  \bigletter G
+  \item gen\_functions() (catcontrols.CATControls method), \hyperpage{13}
+  \item gen\_jii() (catparam.CATParam method), \hyperpage{17}
+  \item gen\_model() (catparam.CATParam method), \hyperpage{17}
+  \item gen\_modelsbx() (catparam.CATParam method), \hyperpage{18}
+  \item gen\_objective() (catkernel.CATKernel method), \hyperpage{23}
+  \item gen\_onsite() (catparam.CATParam method), \hyperpage{18}
+  \item gen\_stoner() (catparam.CATParam method), \hyperpage{18}
+  \item gen\_valenceelectrons() (catparam.CATParam method), \hyperpage{18}
+  \item get\_atom() (bopmodel.atomsbx method), \hyperpage{25}
+  \item get\_atoms() (catcalc.CATCalc method), \hyperpage{21}
+  \item get\_atoms() (catdata.CATData method), \hyperpage{14}
+  \item get\_atoms\_info() (catdata.CATData method), \hyperpage{14}
+  \item get\_atoms\_properties() (catparam.CATParam method), \hyperpage{19}
+  \item get\_bond() (bopmodel.bondsbx method), \hyperpage{26}
+  \item get\_calculator() (catcalc.CATCalc method), \hyperpage{21}
+  \item get\_calculators() (catcalc.CATCalc method), \hyperpage{21}
+  \item get\_cutoffpara() (catparam.CATParam method), \hyperpage{19}
+  \item get\_equilibrium\_distance() (catdata.CATData method), \hyperpage{14}
+  \item get\_fitfunc() (catparam.CATParam method), \hyperpage{19}
+  \item get\_free\_atom\_energies() (catdata.CATData method), \hyperpage{14}
+  \item get\_ground\_state() (catdata.CATData method), \hyperpage{14}
+  \item get\_initial\_bondparam() (catparam.CATParam method), \hyperpage{19}
+  \item get\_initial\_repparam() (catparam.CATParam method), \hyperpage{19}
+  \item get\_mass() (bopmodel.atomsbx method), \hyperpage{25}
+  \item get\_mode() (bopcal.BOPfox method), \hyperpage{25}
+  \item get\_model() (catparam.CATParam method), \hyperpage{19}
+  \item get\_moments() (bopcal.BOPfox method), \hyperpage{25}
+  \item get\_name() (bopcal.BOPfox method), \hyperpage{25}
+  \item get\_optimized\_model() (catkernel.CATKernel method), \hyperpage{23}
+  \item get\_parent() (catdata.CATData method), \hyperpage{15}
+  \item get\_property() (catcalc.CATCalc method), \hyperpage{21}
+  \item get\_ref\_atoms() (catdata.CATData method), \hyperpage{15}
+  \item get\_ref\_data() (catdata.CATData method), \hyperpage{15}
+  \item get\_ref\_weights() (catdata.CATData method), \hyperpage{15}
+  \item get\_SED() (catparam.CATParam method), \hyperpage{18}
+  \item get\_structuremap\_distance() (catdata.CATData method), \hyperpage{15}
+  \item get\_structures() (catcalc.CATCalc method), \hyperpage{22}
+  \item get\_structures() (catdata.CATData method), \hyperpage{16}
+  \item get\_version() (bopmodel.atomsbx method), \hyperpage{25}
+  \item get\_version() (bopmodel.bondsbx method), \hyperpage{26}
+
+  \indexspace
+  \bigletter I
+  \item initialize() (catcontrols.CATControls method), \hyperpage{13}
+  \item inspect\_modelsbx() (bopcal.BOPfox method), \hyperpage{25}
+  \item is\_bond\_required() (catkernel.CATobjective method), \hyperpage{24}
+
+  \indexspace
+  \bigletter M
+  \item make\_lower() (catcontrols.CATControls method), \hyperpage{13}
+  \item modelsbx (class in bopmodel), \hyperpage{26}
+
+  \indexspace
+  \bigletter O
+  \item optimize() (catkernel.CATKernel method), \hyperpage{23}
+
+  \indexspace
+  \bigletter P
+  \item pack\_atoms() (catcalc.CATCalc method), \hyperpage{22}
+
+  \indexspace
+  \bigletter R
+  \item rattle() (bopmodel.atomsbx method), \hyperpage{25}
+  \item rattle() (bopmodel.bondsbx method), \hyperpage{26}
+  \item rattle() (bopmodel.modelsbx method), \hyperpage{26}
+  \item read\_betas() (beta.Beta method), \hyperpage{20}, \hyperpage{27}
+  \item read\_model() (catparam.CATParam method), \hyperpage{19}
+  \item read\_modelsbx() (catparam.CATParam method), \hyperpage{19}
+
+  \indexspace
+  \bigletter S
+  \item set\_atoms() (catcalc.CATCalc method), \hyperpage{22}
+  \item set\_fitfuncs() (beta.Beta method), \hyperpage{20}, \hyperpage{27}
+  \item set\_model() (catcalc.CATCalc method), \hyperpage{22}
+
+  \indexspace
+  \bigletter T
+  \item test() (catkernel.CATKernel method), \hyperpage{23}
+
+  \indexspace
+  \bigletter W
+  \item write() (bopmodel.atomsbx method), \hyperpage{25}
+  \item write() (bopmodel.bondsbx method), \hyperpage{26}
+  \item write() (catkernel.CATobjective method), \hyperpage{24}
+  \item write\_infox() (bopcal.BOPfox method), \hyperpage{25}
+  \item write\_infox\_new() (bopcal.BOPfox method), \hyperpage{25}
+  \item write\_summary() (catkernel.CATKernel method), \hyperpage{23}
+
+  \indexspace
+  \bigletter Z
+  \item zip\_betas() (beta.Beta method), \hyperpage{20}, \hyperpage{27}
+
+\end{theindex}

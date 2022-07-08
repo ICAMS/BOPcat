@@ -1,0 +1,33 @@
+This folder contains examples to illustrate the usage of the BOPfox
+ASE (system call) interface which is used in the parameterization. 
+All the source codes are in folder src/.
+Before you run any of the following examples, make sure that you have
+compiled bopfox and setting the path in your bashrc, e.g.
+
+export PATH=<path to bopfox>:$PATH
+
+In addition, the calculator and the io interfaces defined by bopio.py and 
+bopcal.py, respectively should be copied to the ase/calculators and ase/io 
+folders. You SHOULD rename both of them as bopfox.py inside their respective 
+folders. To check if you have done this correctly, try the following in 
+python.
+
+from ase.calculators import bopfox as bopcal
+from ase.io import bopfox as bopio
+
+If this fails, most probably the path to ASE is not set in your PYTHONPATH. 
+Again set the following in your bashrc:
+
+export PYTHONPATH=<path to ase>:$PYTHONPATH
+
+example1.py
+   In this example we generate a bopfox calculator and calculate the energy
+   of bcc-Fe. First, the calculator is defined by passing the model and infox
+   parameters in the BOPfox calculator object. Model can either be a string
+   (filename, or path) or a modelsbx object (see example2.py). The latter is 
+   used in the fitting code.
+
+example2.py
+   In this example we illustrate the use of the modelsbx object defined in
+   bopmodel.py 
+

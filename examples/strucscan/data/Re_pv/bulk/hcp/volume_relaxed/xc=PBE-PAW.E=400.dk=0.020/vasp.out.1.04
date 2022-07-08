@@ -1,0 +1,26 @@
+ vasp.4.6.35 3Apr08 complex 
+ POSCAR found :  1 types and    2 ions
+ LDA part: xc-table for Pade appr. of Perdew
+ found WAVECAR, reading the header
+  number of k-points has changed, file: 336 present: 288
+  trying to continue reading WAVECAR, but it might fail
+ WAVECAR: different cutoff or change in lattice found
+ POSCAR, INCAR and KPOINTS ok, starting setup
+ WARNING: wrap around errors must be expected
+ FFT: planning ...           1
+ reading WAVECAR
+ the WAVECAR file was read sucessfully
+ initial charge from wavefunction
+ entering main loop
+       N       E                     dE             d eps       ncg     rms          rms(c)
+DAV:   1    -0.248323764542E+02   -0.24832E+02   -0.12324E+00 16082   0.380E+01BRMIX: very serious problems
+ the old and the new charge density differ
+ old charge density:    26.05087 new   26.00000
+    0.269E-01
+DAV:   2    -0.248405462508E+02   -0.81698E-02   -0.77236E-02 13676   0.255E+00    0.150E-01
+DAV:   3    -0.248407657360E+02   -0.21949E-03   -0.34667E-03 17894   0.116E+00    0.503E-02
+DAV:   4    -0.248408203371E+02   -0.54601E-04   -0.68571E-05 18168   0.143E-01    0.255E-02
+DAV:   5    -0.248408382175E+02   -0.17880E-04   -0.43171E-05 18178   0.119E-01    0.147E-03
+DAV:   6    -0.248408382358E+02   -0.18309E-07   -0.40876E-07  6312   0.183E-02
+   1 F= -.24840838E+02 E0= -.24840838E+02  d E =0.000000E+00
+ writing wavefunctions

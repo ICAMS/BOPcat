@@ -1,0 +1,72 @@
+data_type = 0
+code = 0
+basis_set = 0
+pseudopotential = 0
+encut_ok = 0
+deltak_ok = 0
+strucname = bcc-bulk-relax-relax
+alat = 1
+a1 -1.5613465780  1.5613465780  1.561346578000
+a2 1.5613465780  -1.5613465780  1.561346578000
+a3 1.5613465780  1.5613465780  -1.561346578000
+coord = cartesian
+Re 0.0000000000  0.0000000000  0.0000000000
+energy = -12.12721
+forces 0.00000  0.00000  0.00000
+xc_functional = 201
+calculation_type = 0
+system_type = 0
+spin = 1
+stoichiometry = Re
+space_group = 229
+encut =    400.00000
+calculation_order =     15.22500
+/=====================================
+data_type = 0
+code = 7
+basis_set = 0
+pseudopotential = 30
+encut_ok = 1
+deltak_ok = 1
+strucname = bcc-bulk-volume_relaxed-1.00
+alat = 1
+a1 -1.5615167150  1.5615167150  1.561516715000
+a2 1.5615167150  -1.5615167150  1.561516715000
+a3 1.5615167150  1.5615167150  -1.561516715000
+coord = cartesian
+Re 0.0000000000  0.0000000000  0.0000000000
+energy = -12.12664
+forces 0.00000  0.00000  0.00000
+xc_functional = 201
+calculation_type = 1
+system_type = 0
+spin = 1
+stoichiometry = Re
+space_group = 229
+encut =    400.00000
+calculation_order =     15.23000
+/=====================================
+data_type = 0
+code = 0
+basis_set = 0
+pseudopotential = 0
+encut_ok = 1
+deltak_ok = 1
+strucname = bcc-bulk-volume_relaxed-1.01
+alat = 1
+a1 -1.5667045160  1.5667045160  1.566704516000
+a2 1.5667045160  -1.5667045160  1.566704516000
+a3 1.5667045160  1.5667045160  -1.566704516000
+coord = cartesian
+Re 0.0000000000  0.0000000000  0.0000000000
+energy = -12.12461
+forces 0.00000  0.00000  0.00000
+xc_functional = 201
+calculation_type = 1
+system_type = 0
+spin = 1
+stoichiometry = Re
+space_group = 229
+encut =    400.00000
+calculation_order =     15.38230
+/=====================================

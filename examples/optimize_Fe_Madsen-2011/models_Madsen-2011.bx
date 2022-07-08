@@ -1,0 +1,48 @@
+
+/=======================================================================
+model = Madsen-2011
+/=======================================================================
+/ Georg K. H. Madsen, Eunan J. McEniry, and Ralf Drautz
+/ Phys. Rev. B 83, 184119 (2011) 
+/=======================================================================
+
+version     = bop                    
+moments     = 9
+screening   = false
+terminator  = constantabn
+bandwidth   = findeminemax
+bopkernel   = jackson
+nexpmoments = 200
+
+/-----------------------------------------------------------------------
+Atom = Fe
+/-----------------------------------------------------------------------
+Mass             = 55.845
+ValenceOrbitals  = 5
+ValenceElectrons = 6.80
+onsitelevels     = 0.0 
+StonerIntegral   = 0.76 0.76 0.76
+Jii              = 2.0
+
+/-----------------------------------------------------------------------
+bond  = Fe Fe
+/-----------------------------------------------------------------------
+
+valence        = d d
+scaling        = 1.0000
+ddSigma        = exponential_inwardcos -34.811 1.625 0.000 0.000
+ddPi           = exponential_inwardcos  63.512 2.014 0.000 0.000
+ddDelta        = exponential_inwardcos -50.625 2.597 0.000 0.000
+ddSigmaOverlap = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ddPiOverlap    = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+ddDeltaOverlap = 0.000 0.000 0.000 0.000 0.000 0.000 0.000 0.000
+rep1           = pp_exponential 1031.0 3.250
+rep2           = emb_sqrt_gaussian -3.70  0.230 
+/chargetransfer = 0.100 -5.000 4.000 0.000
+rcut           = 3.5
+dcut           = 0.5
+r2cut          = 5.5
+d2cut          = 0.5
+
+
+

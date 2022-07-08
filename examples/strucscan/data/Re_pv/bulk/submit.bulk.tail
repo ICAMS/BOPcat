@@ -1,0 +1,148 @@
+#!/bin/tcsh
+
+
+set structuredir   = $calcdir/bulk/$structure
+set scriptdir      = $workdir/prep/scripts
+set databasedir    = $workdir/prep/structures/bulk
+set nowdir         = `pwd`
+set localwatchfile = $structuredir/localwatch.dat
+#
+#
+echo " starting dobulk for $approxdir on $HOST --" >>  $calcdir/control/submit.log
+#-------------------------------------------------------------
+#
+#
+#
+#
+#   relax structure
+#
+#
+#
+#
+#-------------------------------------------------------------
+#
+cd relax/$approxdir
+#
+set wayhomedir = $structuredir/relax/$approxdir
+set relaxtask = "all"
+$scriptdir/dorelax "$structure" "$elementlist" "$xc" "$encut" "$deltak" "$volinilist"  "$ratio" "$calcdir" "$scriptdir" "$wayhomedir" "$localwatchfile" "$mpicommand" "$vaspcommand" "$relaxtask"
+#
+cd ../..
+#
+# check for successful completion
+set test = `grep failed $localwatchfile | grep " encut=$encut " | grep " deltak=$deltak " | grep " xc=$xc " | tail -1 | awk '{print $2}'`
+if ( $test == "failed" ) then
+  goto endofstructureloop
+endif
+#
+#--------------------------------------------------------------
+#
+#
+#
+#
+#
+#
+#    volume_relaxed: calculate energy around minimum with 
+#                    internal coordinates that were relaxed at the minimum
+#
+#
+#
+#
+#
+#--------------------------------------------------------------
+# TODO
+cd volume_relaxed/$approxdir
+#
+set wayhomedir = $structuredir/volume_relaxed/$approxdir
+set voltask = "volume_relaxed"
+$scriptdir/dovolume "$structure" "$elementlist" "$xc" "$encut" "$deltak" "$volinilist"  "$ratio" "$calcdir" "$scriptdir" "$wayhomedir" "$approxdir" "$localwatchfile" "$mpicommand" "$vaspcommand" "$voltask"
+#
+cd ../..
+#---------------------------------------------------------------
+# check for successful completion
+set test = `grep failed $localwatchfile | grep " encut=$encut " | grep " deltak=$deltak " | grep " xc=$xc " | tail -1 | awk '{print $2}'`
+if ( $test == "failed" ) then
+  goto endofstructureloop
+endif
+#
+#----------------------------------------------------------------
+#
+#
+#
+#
+#    volume_unrelaxed: calculate energy around minimum and keep
+#                       internal coordinates at unrelaxed values
+#
+#
+#
+#
+#
+#--------------------------------------------------------------
+if ( $taskoption == 0 ) then
+  goto endofloop
+endif
+# TODO
+cd volume_unrelaxed/$approxdir
+#
+set wayhomedir = $structuredir/volume_unrelaxed/$approxdir
+set voltask = "volume_unrelaxed"
+$scriptdir/dovolume "$structure" "$elementlist" "$xc" "$encut" "$deltak" "$volinilist"  "$ratio" "$calcdir" "$scriptdir" "$wayhomedir" "$approxdir" "$localwatchfile" "$mpicommand" "$vaspcommand" "$voltask"
+#
+cd ../..
+#---------------------------------------------------------------
+# check for successful completion
+set test = `grep failed $localwatchfile | grep " encut=$encut " | grep " deltak=$deltak " | grep " xc=$xc " | tail -1 | awk '{print $2}'`
+if ( $test == "failed" ) then
+  goto endofstructureloop
+endif
+#
+#
+#----------------------------------------------------------------
+#
+#
+#
+#
+#    volume_allrelaxed: calculate energy around minimum and relax
+#                       internal coordinates during each step
+#
+#
+#
+#--------------------------------------------------------------
+if ( $taskoption == 1 ) then
+  goto endofloop
+endif
+# TODO
+cd volume_allrelaxed/$approxdir
+#
+set wayhomedir = $structuredir/volume_allrelaxed/$approxdir
+set voltask = "volume_allrelaxed"
+$scriptdir/dovolume "$structure" "$elementlist" "$xc" "$encut" "$deltak" "$volinilist"  "$ratio" "$calcdir" "$scriptdir" "$wayhomedir" "$approxdir" "$localwatchfile" "$mpicommand" "$vaspcommand" "$voltask"
+#
+cd ../..
+#---------------------------------------------------------------
+# check for successful completion
+set test = `grep failed $localwatchfile | grep " encut=$encut " | grep " deltak=$deltak " | grep " xc=$xc " | tail -1 | awk '{print $2}'`
+if ( $test == "failed" ) then
+  goto endofstructureloop
+endif
+#
+goto endofloop
+#
+#----------------------------------------------------------------
+if ( $taskoption == 2 ) then
+  goto endofloop
+endif
+#
+#       ----------------
+#       | TODO elastic |
+#       ----------------
+#
+#
+endofloop:
+#  echo "  bulk completed $structure  xc=$xc encut=$encut deltak=$deltak --" >> $calcdir/jobwatch.dat
+  echo "  status completed $taskoption bulk      xc=$xc encut=$encut deltak=$deltak --"      >> $localwatchfile
+endofstructureloop:
+#
+#
+
+

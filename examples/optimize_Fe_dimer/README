@@ -1,0 +1,28 @@
+In this example, two models are combined and optimized.
+The initial model starts with the repulsion found in example
+"optimize_Fe_Madsen-2011" and the dimer bondintegrals for iron.
+The combination of the models leads to a slight shift and increase of the
+equilibrium energy for bcc.
+The dimer bond integrals are optimized and the repulsion and the embedding
+contribution are fixed.
+Very tiny changes in the bond integrals lead to a good agreement of the
+BOP and DFT data.
+Note that not all parameters of the dimer bond integrals are optimized:
+The stop distances (which you get from the models.bx file) are
+ddsigma [ 3.    1.7   1.35  1.35  1.35  1.35]
+ddpi [ 3.   1.4  1.2  1.2  1.2  1.2]
+dddelta [ 2.65  1.2   1.2   1.2   1.2   1.2 ]
+This means that the simple exponential decay is valid up to (3., 3. 2.65)
+A and the first correction up to (1.7, 1.4, 1.2) A. This is already smaller
+than the shortest interatomic distance in the reference data. For ddpi a
+third fit for interatomic distances up to 1.2 A exists. Due to the lack of
+data for interatomic distances smaller than 2.2 A, it does not make sense
+to include this fit.
+Also the simple exponential decay should be maintained, therefore the
+third parameter p_3 is not changed from 1.
+
+The input controls are given in input.py and the optimization 
+procedure is defined in main.py
+
+To execute this simply type:
+python main.py input.py

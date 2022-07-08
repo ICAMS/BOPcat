@@ -1,0 +1,19 @@
+#!/bin/tcsh -f
+#$ -cwd
+#$ -l qname=parallel12.q
+#$ -pe smp12 12          
+#$ -j y                
+#$ -o queue.out        
+#$ -S /bin/tcsh        
+#$ -R y                
+#$ -P ams.p            
+cd $SGE_O_WORKDIR      
+set compound    =  Re_pv
+set elementlist = ( Re_pv )
+set volinilist = ( 15.5 )
+set ratio = 1.1
+set taskoption = 0
+set workdir = /home/users/hammet1w/strucscan/version.preR14
+set calcdir = /home/users/hammet1w/strucscan/version.preR14/data/Re_pv
+set vaspcommand = ( /cluster/vasp/vasp.4.6.parallel )
+set mpicommand = ( /cluster/mpi/openmpi/1.3.3/bin/mpirun -np $NSLOTS -machinefile $TMP/machines )

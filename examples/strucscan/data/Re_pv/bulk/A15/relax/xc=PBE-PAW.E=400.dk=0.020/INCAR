@@ -1,0 +1,11 @@
+SYSTEM = /home/users/hammet1w/strucscan/version.preR14/data/Re_pv in A15
+ENCUT = 400
+ISIF = 3
+IBRION = 2
+EDIFF  = 0.000001 
+ISMEAR = 1 
+SIGMA  = 0.1 
+NSW    = 1000 
+EDIFFG = -0.01 
+ISPIN  = 1 
+NBANDS  =  65

@@ -1,0 +1,20 @@
+# polynomial O(2) fit
+E_2           -12.262414
+V_2            15.330468
+B_2           347.442624
+Bdev_2          1.000000
+# polynomial O(4) fit
+E_4           -12.262634
+V_4            15.312952
+B_4           359.330076
+Bdev_4          5.751785
+# Rose/Vinet fit
+E_rose        -12.262594
+V_rose         15.312164
+B_rose        355.751986
+Bdev_rose       6.110593
+# Murnaghan fit
+E_murn        -12.262586
+V_murn         15.312070
+B_murn        355.062549
+Bdev_murn       6.153133

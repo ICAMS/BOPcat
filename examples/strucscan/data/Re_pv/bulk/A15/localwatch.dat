@@ -1,0 +1,21 @@
+  // jobwatch control file 
+  // please do not modify or remove this file 
+  status created localwatch --
+    status initialized           xc=PBE-PAW encut=400 deltak=0.020 --
+  status start                 xc=PBE-PAW encut=400 deltak=0.020 --
+      relax-all initial volume 124.0    xc=PBE-PAW encut=400 deltak=0.020 --
+       relax-all final   volume 122.60     xc=PBE-PAW encut=400 deltak=0.020 --
+    status done  relax-all     xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-0.96   xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-0.97   xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-0.98   xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-0.99   xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-1.00   xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-1.01   xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-1.02   xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-1.03   xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-1.04   xc=PBE-PAW encut=400 deltak=0.020 --
+      status done 0 crash volume_relaxed-1.05   xc=PBE-PAW encut=400 deltak=0.020 --
+       volume_relaxed final volume 122.497312    xc=PBE-PAW encut=400 deltak=0.020 --
+    status done volume_relaxed    xc=PBE-PAW encut=400 deltak=0.020 --
+  status completed 0 bulk      xc=PBE-PAW encut=400 deltak=0.020 --

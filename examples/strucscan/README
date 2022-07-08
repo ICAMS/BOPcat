@@ -1,0 +1,6 @@
+This example illustrates the generation of BOPcat reference 
+data from strucscan. The interface is strucscan_interface.py and the 
+main program that fetches the data is get_strucscan_data.py. 
+
+NOTE : These are only temporary codes that are not meant to be part 
+of BOPcat, hence are not necessarily tested nor optimized. 

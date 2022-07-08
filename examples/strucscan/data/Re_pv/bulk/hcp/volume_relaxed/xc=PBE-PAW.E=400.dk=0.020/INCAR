@@ -1,0 +1,6 @@
+SYSTEM = /home/users/hammet1w/strucscan/version.preR14/data/Re_pv in hcp
+ENCUT = 400
+ISMEAR = -5
+EDIFF  = 0.000001 
+ISPIN  = 1 
+NBANDS  =  18

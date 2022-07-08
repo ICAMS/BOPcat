@@ -1,0 +1,10 @@
+bulk  fcc   V= 15.123596 A  E0= -12.383377 eV  B= 363.531051 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
+bulk  bcc   V= 15.226014 A  E0= -12.126482 eV  B= 354.919123 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
+bulk  hcp   V= 15.074511 A  E0= -12.445346 eV  B= 364.205673 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
+bulk  C15   V= 15.691096 A  E0= -12.101245 eV  B= 338.229355 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
+bulk  A15   V= 15.312164 A  E0= -12.262594 eV  B= 355.751986 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
+bulk  C36   V= 15.694945 A  E0= -12.133928 eV  B= 337.625948 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
+bulk  C14   V= 15.681415 A  E0= -12.159027 eV  B= 338.851839 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
+bulk  chi   V= 15.358132 A  E0= -12.388234 eV  B= 357.079313 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
+bulk  sigma   V= 15.322215 A  E0= -12.343598 eV  B= 361.261495 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
+bulk  mu   V= 15.557512 A  E0= -12.232181 eV  B= 344.832518 GPa  volume_relaxed  xc= PBE-PAW encut= 400 deltak= 0.020 ncrash= 0
