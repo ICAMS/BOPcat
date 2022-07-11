@@ -2,25 +2,17 @@
 
 BOPcat is a python package for the automated parametrization of tight-binding models and analytic bond-order potentials. 
 It drives the BOPfox calculator to calculate energies, forces and stresses which are used to optimize the parameters.
-Details of the methodology and application are given in the original publication (A. Ladines, T. Hammerschmidt, R. Drautz, ["BOPcat software package for the construction and testing of tight-binding models and analytic bond-order potentials"](https://www.sciencedirect.com/science/article/abs/pii/S0927025619307542), Comp. Mat. Sci. 173 (2020) 109455) ([preprint](https://arxiv.org/abs/1907.12254).
+Details of the methodology and application are given in the original publication (A. Ladines, T. Hammerschmidt, R. Drautz, ["BOPcat software package for the construction and testing of tight-binding models and analytic bond-order potentials"](https://www.sciencedirect.com/science/article/abs/pii/S0927025619307542), Comp. Mat. Sci. 173 (2020) 109455) ([preprint](https://arxiv.org/abs/1907.12254)).
 
 # Requirements:
 
-- ``numpy`` `<http://www.numpy.org/>`
-
-- ``scipy`` `<http://www.scipy.org/>`
-
-- ``matplotlib`` `<http://www.matplotlib.org/>`
-
-- ``spglib`` `<https://atztogo.github.io/spglib/>`
-
-- ``ase`` `<https://wiki.fysik.dtu.dk/ase/>`
+[numpy](http://www.numpy.org/), [scipy] (http://www.scipy.org/), [matplotlib] (http://www.matplotlib.org/), [spglib](https://atztogo.github.io/spglib/), [ase](https://wiki.fysik.dtu.dk/ase/)
 
 # Installation:
 
 1. Get a copy from git repository
 
-   $ git clone https://git.noc.ruhr-uni-bochum.de/bop/bopcat.git
+   $ git clone https://github.com/ICAMS/BOPcat.git
 
 2. Run installation script
 
