@@ -3,6 +3,8 @@
 # Definition of the CATCalc object
 
 # This module is part of the BOPcat package
+# available at https://github.com/ICAMS/BOPcat
+# distributed under GNU General Public License v3.0
 
 from .calc_bopfox import calc_ebs_bopfox, calc_efs_bopfox
 from .calc_bopfox import initialize_bopfox

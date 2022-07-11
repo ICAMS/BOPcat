@@ -3,6 +3,8 @@
 # Definition of the CATKernel, CATobjective and CAToptimizer objects
 
 # This module is part of the BOPcat package
+# available at https://github.com/ICAMS/BOPcat
+# distributed under GNU General Public License v3.0
 
 import numpy as np
 from . import functions as Funcs

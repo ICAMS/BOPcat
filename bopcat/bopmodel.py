@@ -3,6 +3,8 @@
 # Definition of the atomsbx bondsbx and modelsbx
 
 # This module is part of the BOPcat package
+# available at https://github.com/ICAMS/BOPcat
+# distributed under GNU General Public License v3.0
 
 import os
 import copy

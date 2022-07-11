@@ -1,3 +1,7 @@
+# This module is part of the BOPcat package
+# available at https://github.com/ICAMS/BOPcat
+# distributed under GNU General Public License v3.0
+
 from . import beta
 from . import bopmodel
 from . import calc_bopfox
