@@ -6,7 +6,7 @@ Details of the methodology and application are given in the original publication
 
 # Requirements:
 
-[numpy](http://www.numpy.org/), [scipy] (http://www.scipy.org/), [matplotlib] (http://www.matplotlib.org/), [spglib](https://atztogo.github.io/spglib/), [ase](https://wiki.fysik.dtu.dk/ase/)
+[numpy](http://www.numpy.org/), [scipy](http://www.scipy.org/), [matplotlib](http://www.matplotlib.org/), [spglib](https://atztogo.github.io/spglib/), [ase](https://wiki.fysik.dtu.dk/ase/)
 
 # Installation:
 
