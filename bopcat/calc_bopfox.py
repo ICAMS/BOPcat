@@ -12,10 +12,8 @@ from .variables import is_boplib
 """
 BOPfox utilities.
 
-Part of the BOPfit package.
+Part of the BOPcat package.
 
-author: Alvin Noe Ladines
-e-mail: ladinesalvinnoe@gmail.com
 """
 
 
@@ -519,7 +517,7 @@ def run_phonopy_backup(atom, modelsbx, path_kc, cell_size):
     from phonopy.structure.atoms import Atoms as PhonopyAtoms
 
     if phonopy_version.phonopy_version != '1.9.0.1':
-        print('Warning: BOPfit compatible only with phonopy version 1.9.0.1')
+        print('Warning: BOPcat compatible only with phonopy version 1.9.0.1')
         print('         Will try to run but errors may occur.')
     old_params = modelsbx.infox_parameters.copy()
     atomsbx = [abx.copy() for abx in modelsbx.atomsbx]
@@ -677,7 +675,7 @@ def run_phonopy(atom, modelsbx, path_kc, cell_size):
     from phonopy import version as phonopy_version
     from phonopy.structure.atoms import Atoms as PhonopyAtoms
     if get_phonopy_version() != '1.11.6':
-        print('''Warning: current BOPfit compatible only with 
+        print('''Warning: current BOPcat compatible only with 
                  phonopy version "1.11.6"'
                  Will try to run but errors may occur.''')
     old_params = modelsbx.infox_parameters.copy()

@@ -858,8 +858,7 @@ if __name__ == "__main__":
         atoms.append(bulk('Fe', a=a))
     calc = CATCalc()
     calc.set_atoms(atoms)
-    model = read_modelsbx(filename= \
-                              '~/bop_ase/fitting/BOPfit2/examples/models.bx')[0]
+    model = read_modelsbx(filename= 'models.bx')[0]
     calc.set_model(model)
     print(("Energies: ", calc.get_property(required_property='energy')))
     calc.docalculate = True

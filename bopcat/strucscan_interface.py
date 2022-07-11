@@ -298,6 +298,6 @@ def import_data(elements, params, path, filename):
 if __name__ == "__main__":
     dft_params = {'xc_functional': 'PBE', 'deltak': 0.02, 'encut': 450, 'spin': 2}
     elements = ['Fe']
-    path = '~/bop_ase/fitting_code/BOPfit/local/examples/search_data/data'
+    path = 'data'
     filename = 'temp.fit'
     import_data(elements, dft_params, path, filename)

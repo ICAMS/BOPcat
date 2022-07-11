@@ -1,5 +1,5 @@
 """
-Contains all global variables in BOPfit
+Contains all global variables in BOPcat
 """
 import os
 
@@ -197,7 +197,7 @@ def beta_names():
 
 def bopfox_keys():
     """
-    BOPfit tries to update from modules.fp. It it fails, e.g. when it does
+    BOPcat tries to update from modules.fp. It it fails, e.g. when it does
     not find the path to bopfox/src the following will be used.
     """
     skeys = ['version', 'forces', 'task', 'model', 'eamversion'

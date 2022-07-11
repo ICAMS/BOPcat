@@ -54,7 +54,7 @@ def bopcat_logo():
     _  /_/ // /_/ /_  ____// /__ / /_/ // /_       
     /_____/ \____/ /_/     \___/ \__,_/ \__/       
                                              
-    Bond-Order Potential construction, assessment and testing  
+    Bond-Order Potential construction and testing  
     {0}                                            
     Date: {1}                                      
     User: {2}               
